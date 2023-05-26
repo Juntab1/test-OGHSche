@@ -3,6 +3,7 @@ var app = express();
 var port = 8081;
 var fs = require('fs');
 
+// What is this "public"?
 app.use(express.static('public'));
 
 app.get('/process_get', function(req, res) {
